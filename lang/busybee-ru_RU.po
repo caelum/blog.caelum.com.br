@@ -1,0 +1,309 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Eduard Luhtonen <eduard.luhtonen@wippies.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Poedit-Language: Russian\n"
+"X-Poedit-Country: RUSSIAN FEDERATION\n"
+
+#. Text in function
+#: busybee/archive.php:61
+#: busybee/search.php:38
+#: busybee/index.php:86
+msgid " Older Entries &raquo;"
+msgstr " Старые записи &raquo;"
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "% Responses"
+msgstr "% ответов"
+
+#. Text in function
+#: busybee/archive.php:60
+#: busybee/search.php:37
+#: busybee/index.php:85
+msgid "&laquo; Newer Entries "
+msgstr "&laquo; Новые записи "
+
+#. Text in echo
+#: busybee/footer.php:31
+msgid "All Rights Reserved."
+msgstr "Все права защищены"
+
+#. Text in echo
+#: busybee/header.php:11
+#: busybee/header.php:12
+msgid "Archive"
+msgstr "Архив"
+
+#. Text in echo
+#: busybee/archive.php:20
+msgid "Archive by Author"
+msgstr "Архив, упорядоченный по авторам"
+
+#. Text in echo
+#: busybee/archive.php:16
+#: busybee/archive.php:17
+#: busybee/archive.php:18
+msgid "Archive for"
+msgstr "Архив за"
+
+#. Text in echo
+#: busybee/archive.php:19
+msgid "Archive for the year"
+msgstr "Архив за год"
+
+#. Text in echo
+#: busybee/archive.php:21
+msgid "Archives"
+msgstr "Архивы"
+
+#. Text in echo
+#: busybee/header.php:8
+msgid "Author Archives"
+msgstr "Архивы автора"
+
+#. Text in echo
+#: busybee/template-sitemap.php:35
+#: busybee/template-archives.php:34
+msgid "Categories"
+msgstr "Разделы"
+
+#. Text in echo
+#: busybee/template-sitemap.php:56
+#: busybee/sidebar.php:15
+#: busybee/header.php:53
+msgid "Comments"
+msgstr "Комментарии"
+
+#. Text in echo
+#: busybee/comments.php:38
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#. Text in echo
+#: busybee/archive.php:51
+#: busybee/search.php:28
+#: busybee/index.php:70
+msgid "Continue Reading"
+msgstr "Продолжить чтение"
+
+#. Text in echo
+#: busybee/header.php:54
+msgid "Email"
+msgstr "Эл.почта"
+
+#. Text in echo
+#: busybee/comments.php:76
+msgid "Email (required)"
+msgstr "Эл.почта (обязательно)"
+
+#. Text in echo
+#: busybee/search-form.php:4
+msgid "Enter keywords..."
+msgstr "Введите ключевое слово..."
+
+#. Text in echo
+#: busybee/404.php:16
+msgid "Error 404 - Page not found!"
+msgstr "Ошибка 404 - Страница не найдена!"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Follow me on Twitter"
+msgstr "Найти меня на сайте Twitter"
+
+#. Text in echo
+#: busybee/comments-legacy.php:33
+msgid "Gravatar"
+msgstr "Граватар"
+
+#. Text in echo
+#: busybee/header.php:46
+msgid "Home"
+msgstr "Главная"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Latest Tweet from Twitter"
+msgstr "Последний Твит из Твиттера"
+
+#. Text in function
+#: busybee/comments.php:51
+msgid "Leave a Reply"
+msgstr "Написать ответ"
+
+#. Text in function
+#: busybee/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Написать ответ %s"
+
+#. Text in echo
+#: busybee/comments.php:67
+msgid "Log out &raquo;"
+msgstr "Выйти  &raquo;"
+
+#. Text in echo
+#: busybee/comments.php:67
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#. Text in echo
+#: busybee/template-archives.php:42
+msgid "Monthly Archives"
+msgstr "Архив по месяцам"
+
+#. Text in echo
+#: busybee/comments.php:75
+msgid "Name (required)"
+msgstr "Имя (обязательно)"
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "No Responses"
+msgstr "Ответов нет"
+
+#. Text in echo
+#: busybee/search.php:46
+msgid "No matches. Please try again, or use the navigation menus to find what you are looking for."
+msgstr "Соответствий не найдено. Пожалуйста, попробуйте еще раз, либо воспользуйтесь меню навигации, чтобы найти то, что вы ищете."
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "One Response"
+msgstr "1 ответ"
+
+#. Text in echo
+#: busybee/template-sitemap.php:25
+msgid "Pages"
+msgstr "Старницы"
+
+#. Text in echo
+#: busybee/includes/theme-widgets.php:14
+msgid "Photos on"
+msgstr "Фотографии на"
+
+#. Text in echo
+#: busybee/sidebar.php:14
+msgid "Popular"
+msgstr "Популярные"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+msgid "Posted on"
+msgstr "Опубликовано на"
+
+#. Text in echo
+#: busybee/header.php:52
+msgid "Posts"
+msgstr "Сообщения"
+
+#. Text in echo
+#: busybee/footer.php:34
+msgid "Powered by Wordpress. Designed by"
+msgstr "Работает на Wordpress. Дизайн"
+
+#. Text in echo
+#: busybee/header.php:7
+msgid "Search Results"
+msgstr "Результат поиска"
+
+#. Text in echo
+#: busybee/search.php:45
+msgid "Search results"
+msgstr "Результат поиска"
+
+#. Text in echo
+#: busybee/single.php:42
+msgid "Sorry, no posts matched your criteria."
+msgstr "Извините, записей, удовлетворяющих вашему запросу, не найдено."
+
+#. Text in echo
+#: busybee/header.php:13
+msgid "Tag Archive"
+msgstr "Архив меток"
+
+#. Text in echo
+#: busybee/archive.php:22
+msgid "Tag Archives:"
+msgstr "Архив меток:"
+
+#. Text in echo
+#: busybee/sidebar.php:16
+msgid "Tags"
+msgstr "Метки"
+
+#. Text in echo
+#: busybee/template-archives.php:20
+msgid "The Last 30 Posts"
+msgstr "Последние 30 сообщений"
+
+#. Text in echo
+#: busybee/404.php:17
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Страница, которую вы пытались открыть не существует, либо была перемещена. Пожалуйста, используйте меню или окно поиска, чтобы найти то, что вы ищете."
+
+#. Text in echo
+#: busybee/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Это сообщение защищено паролем. Введите пароль для просмотра комментариев."
+
+#. Text in echo
+#: busybee/comments.php:69
+#: busybee/comments.php:84
+msgid "Type your comment here..."
+msgstr "Введите здесь свой комментарий..."
+
+#. Text in echo
+#: busybee/comments.php:59
+#: busybee/comments.php:77
+msgid "Website (optional)"
+msgstr "Вебсайт (необязательно)"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "You must be"
+msgstr "Вы должны"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+msgid "by"
+msgstr "по"
+
+#. Text in echo
+#: busybee/template-archives.php:26
+msgid "comments"
+msgstr "комментарий"
+
+#. Text in echo
+#: busybee/single.php:22
+msgid "in"
+msgstr "в"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "logged in"
+msgstr "вы вошли в систему"
+
+#. Text in echo
+#: busybee/comments.php:19
+msgid "to"
+msgstr "к"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "to post a comment."
+msgstr "чтобы оставить комментарий."

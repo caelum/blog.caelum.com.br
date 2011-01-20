@@ -1,0 +1,212 @@
+*** Busy Bee Changelog ***
+
+2011.01.05 - version 2.8.2
+ * includes/theme-functions.php - added function to add category descriptions to WP Menus
+ * style.css - added #cat_navi li li span
+
+2010.12.14 - version 2.8.1
+ * footer.php - updated twitter callback
+ * index.php - fixed h2 alignment with no image on single column posts
+
+2010.11.25 - version 2.8
+ * footer.php - fixed woo_sidebar calls
+ * sidebar.php - removed old tabs and fixed woo_sidebar call. removed widgetized div.
+ * includes/sidebar-init.php - registered new sidebars
+ * includes/theme-functions.php - new functions for WooTabs widget
+ * includes/theme-widgets.php - added WooTabs as widget
+ * style.css - updated #sidebar, #tabs, #vidtabs, #footer h3.widget_title styling
+
+2010.11.12 - version 2.7.1
+ * style.css - added #main-content .title to style new h1 in page.php and single.php
+ * page.php, single.php - changed h2 to h1 with title class for better SEO
+
+2010.10.21 - version 2.7
+ * includes/theme-widgets.php - added Adspace widget
+
+2010.06.29 - version 2.6.1
+ * includes/theme-options.php - added text title option
+ * header.php - added text title code (line 67-79)
+ * style.css - added text title styling (Text Logo section at bottom) & fixed Gravity forms styling bug
+
+2010.06.21 - version 2.6.0
+ * header.php - Added theme support for WordPress 3.0 Menu Management
+ * /includes/theme-functions.php - Added theme support for WordPress 3.0 Menu Management
+ 
+2010.06.14 - version 2.5.2
+ * style.css - Added styling for Gravity forms
+
+2010.06.02 - version 2.5.1
+ * comments.php - added previous commenter info instead of labels
+
+2010.05.21 - version 2.5
+ * includes/theme-options.php - Added option under Images to add dynamic images to RSS feed
+
+2010.04.25 - version 2.4
+ * header.php - added support for WooNav
+ * style.css - WooNav fix #cat_navi li a span (line 176)
+
+2010.04.21 - version 2.3
+ * /functions/* - MAJOR UPDATE - Framework V.2.7.0
+ * header.php  - Added SEO tags, woo_title(); & woo_meta();
+ * functions.php - Changed layout for loading required files.
+
+2010.02.18 - version 2.2.1
+ * footer.php - Closing div's misplaced.
+
+2010.01.30 - version 2.2
+ * template-contact.php - Added contact form page template
+ * style.css - added MISC section (bottom) for styling of contact form, buttons and alert
+ * includes/theme-options.php - added option for e-mail for contact form page template
+ * images/ico-*.png - Added icons for alert boxes
+
+2009.12.31 - version 2.1
+ * comments.php - Added pingbacks / tracbacks
+   style.css - Added pingbacks (bottom of style.css)
+   includes/theme-comments.php - added pingbacks
+
+2009.11.09 - version 2.0.8
+ * style.css - Changed drop-down navigation to support more levels.
+
+2009.09.23 - version 2.0.7
+ * template-imagegallery.php - fixed woo_Get_image
+
+2009.08.27 - version 2.0.6
+ * search.php - fixed woo_Get_image
+
+2009.08.27 - version 2.0.5
+ * /functions/* - Core Framework 1.0.7
+ * /lang/coffeebreak.po - Added language file. See: http://www.woothemes.com/2009/08/how-to-translate-a-theme/
+ * Added gettext functions to template php files to support localization.
+
+2009.08.06 - version 2.0.4
+  * /includes/init-sidebar.php - fixed clear after sidebar titles
+
+2009.08.06 - version 2.0.3 
+  * /functions/ - Core framework upgrade to v1.0.5
+
+2009.07.28 - version 2.0.2
+  * /functions/ - Core framework upgrade to V.1.0.4
+  * /includes/theme-options.php - Added Custom CSS backend option
+  * /includes/theme-functions.php - Removed duplicate get_page_id() function
+
+2009.07.16 - version 2.0.1
+  * index.php - Fixed one column posts option
+
+2009.07.14 - version 2.0
+  * functions.php - Added new framework
+  * functions/*.* - Added new framework
+  * includes/*.* - Added new framework
+  * includes/js/pngfix.js - Added png fix for IE6
+  * header.php - Added pngfix.js, fixed php if statements on line 54, 64 and 82
+  * index.php - Changed woo_get_image line 26, 52 and 61, fixed php if statements line 16, 35, 42, 69 and 75
+  * sidebar.php - fixed php if statements line 10
+  * archive.php - changed the_content on video to woo_get_embed function line 45, fixed woo_get_image(), fixed php if statements line 49
+  * single.php - fixed php if statements line 20 and 31, fixed woo_get_image() line 20  
+  
+2009.06.11 - version 1.2.8
+  * functions/admin-options - changed $options to $woo_options (Fix to make WP-slimbox2 work with WP2.8 and theme)
+    functions.php - line 25 changed $options to $woo_options
+
+2009.06.11 - version 1.2.7
+  * /styles/*.css - changed #idTabs to .idTabs in TABS section  
+
+2009.06.11 - version 1.2.6
+  * functions.php - Upgrade (get_category fix)
+  * includes/js/tabs.js - Upgraded idtabs script to work with 2.8 (tabs were expanded with new jquery)
+    includes/widgets.php - fixed video widget tabs
+    sidebar.php - changed #idTabs to .idTabs in TABS section    
+    style.css - fixed tabs styling (/* Video Widget */) and (/* Tabs */) sections  
+ 
+2009.05.13 - version 1.2.5
+	* template-full.php - Fix for alt. styles
+	  style.css - fix for alt. style /* Full Width */ section
+          styles/*.* - Added styles and images for full width
+	* functions/admin-setup.php - removed wp-pagenavi function
+	* archive.php - Fixed div more_entries prev/next navigation default
+	  index.php
+	  search.php
+
+
+2009.05.08 - version 1.2.4
+	* template-full.php - Full width page template
+	  style.css - /* Full Width */ section
+	  images/bg_middle_top_full.gif
+	  images/bg_page_full.gif
+
+2009.04.29 - version 1.2.3
+	* comments-legacy.php - Fixed styling bug in comments form
+
+2009.02.24 - version 1.2.2
+	* functions/admin-theme-page.php - fixed bug with loading alternative styles in the admin panel
+
+2009.02.15 - version 1.2.1
+	* style.css - 2nd level page dropdown bug. Fixed #nav li ul ul, #nav li ul ul li a
+
+2009.02.12 - version 1.2
+	* header.php - moved javascript to functions.php
+	  functions.php
+
+2009.02.08 - version 1.1.6
+	* includes/comments.php - changed to get_gravatar() for gravatars in sidebar tab
+	* style.css - added #sidebar .block .inside li img.avatar
+
+2009.01.07 - version 1.1.5
+	* comments.php - Fixed so that "Website (optional)" is removed when submitting comment
+	  comments-legacy.php
+
+2008.12.27 - version 1.1.4
+	* style.css - Fixed IE6/7 bugs in sidebar and post layout (#sidebar .block .inside li, #main-content .post img.thumbnail)
+	  index.php
+	  includes/popular.php
+	  includes/comments.php
+
+2008.12.23 - version 1.1.3
+	* styles/green/bg_middle_content_single.gif - Added missing image
+
+2008.12.22 - version 1.1.2
+  * includes/popular.php - Fixed image link on popular tab
+  * functions/admin-options.php - Options for sidebar tabs popular/comments number of posts to display
+    includes/comments.php
+	includes/popular.php
+
+2008.12.16 - version 1.1.1
+  * functions/admin-style.css - New "2.7" style on admin panel
+    functions.php
+  * style.css - Added image caption styling
+
+2008.12.15 - version 1.1.0
+  * comments.php - New comment loop which adds WP 2.7 features (threaded comments, page navigation)
+	comments-legacy.php
+	functions.php
+	style.css
+	header.php
+  * includes/widgets.php - Fixed html bug (IE7) when adding Woo Video Player
+
+2008.12.10 - version 1.0.5
+  * comments.php - Fixed bug when user must be logged in to comment (sidebar dropped)
+
+2008.12.09 - version 1.0.4
+  * functions/admin-options.php - Added option for displayin latest Twitter feed in header
+	header.php
+	footer.php
+	style.css
+	images/twitter-trans.png
+
+2008.12.09 - version 1.0.3
+  * includes/widgets.php - Changed video player to get the embed code from the Excerpt field instead of the content
+  * archive.php - Shows the Content instead of the Excerpt on video archives
+  * includes/popular.php - Set the number of popular posts to only show 5
+
+2008.12.08 - version 1.0.2
+  * functions/admin-options.php - Added Feedburner ID option (missing)
+
+2008.12.08 - version 1.0.1
+  * functions/admin-options.php - Added Sidebar Video Player widget
+	includes/widgets.php
+	archive.php
+	index.php
+	header.php
+	style.css
+  
+2008.12.08 - version 1.0.0
+  * First release!

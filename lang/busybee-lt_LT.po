@@ -1,0 +1,355 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: namaste <namaste@inbox.lt>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: busybee/archive.php:61
+#: busybee/search.php:38
+#: busybee/index.php:86
+#, fuzzy
+msgid " Older Entries &raquo;"
+msgstr "Ankstesni įrašai &raquo;"
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "% Responses"
+msgstr "% Atsiliepimai"
+
+#. Text in function
+#: busybee/archive.php:60
+#: busybee/search.php:37
+#: busybee/index.php:85
+#, fuzzy
+msgid "&laquo; Newer Entries "
+msgstr "&laquo; Naujesni įrašai"
+
+#. Text in echo
+#: busybee/footer.php:31
+#, fuzzy
+msgid "All Rights Reserved."
+msgstr "Visos teisės saugomos."
+
+#. Text in echo
+#: busybee/header.php:11
+#: busybee/header.php:12
+#, fuzzy
+msgid "Archive"
+msgstr "Archyvas"
+
+#. Text in echo
+#: busybee/archive.php:20
+#, fuzzy
+msgid "Archive by Author"
+msgstr "Archyvas pagal autorių"
+
+#. Text in echo
+#: busybee/archive.php:16
+#: busybee/archive.php:17
+#: busybee/archive.php:18
+#, fuzzy
+msgid "Archive for"
+msgstr "Archyvas"
+
+#. Text in echo
+#: busybee/archive.php:19
+#, fuzzy
+msgid "Archive for the year"
+msgstr "Archyvas pagal metus"
+
+#. Text in echo
+#: busybee/archive.php:21
+#, fuzzy
+msgid "Archives"
+msgstr "Archyvai"
+
+#. Text in echo
+#: busybee/header.php:8
+#, fuzzy
+msgid "Author Archives"
+msgstr "Autoriaus archyvas"
+
+#. Text in echo
+#: busybee/template-sitemap.php:35
+#: busybee/template-archives.php:34
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorijos"
+
+#. Text in echo
+#: busybee/template-sitemap.php:56
+#: busybee/sidebar.php:15
+#: busybee/header.php:53
+#, fuzzy
+msgid "Comments"
+msgstr "Komentarai"
+
+#. Text in echo
+#: busybee/comments.php:38
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Komentarai uždaryti."
+
+#. Text in echo
+#: busybee/archive.php:51
+#: busybee/search.php:28
+#: busybee/index.php:70
+#, fuzzy
+msgid "Continue Reading"
+msgstr "Tęsti skaitymą"
+
+#. Text in echo
+#: busybee/header.php:54
+#, fuzzy
+msgid "Email"
+msgstr "El.paštas"
+
+#. Text in echo
+#: busybee/comments.php:76
+#, fuzzy
+msgid "Email (required)"
+msgstr "El.paštas (privaloma)"
+
+#. Text in echo
+#: busybee/search-form.php:4
+#, fuzzy
+msgid "Enter keywords..."
+msgstr "Įrašykite frazę..."
+
+#. Text in echo
+#: busybee/404.php:16
+#, fuzzy
+msgid "Error 404 - Page not found!"
+msgstr "Klaida 404 - Puslapis nerastas!"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Follow me on Twitter"
+msgstr "Sekite mane Twitter'yje"
+
+#. Text in echo
+#: busybee/comments-legacy.php:33
+#, fuzzy
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: busybee/header.php:46
+#, fuzzy
+msgid "Home"
+msgstr "Pradžia"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Latest Tweet from Twitter"
+msgstr "Naujienos iš Twitter'io"
+
+#. Text in function
+#: busybee/comments.php:51
+#, fuzzy
+msgid "Leave a Reply"
+msgstr "Palikte atsiliepimą"
+
+#. Text in function
+#: busybee/comments.php:51
+#, fuzzy
+msgid "Leave a Reply to %s"
+msgstr "Palikte atsiliepimą %s"
+
+#. Text in echo
+#: busybee/comments.php:67
+#, fuzzy
+msgid "Log out &raquo;"
+msgstr "Atsijungti nuo sąskaitos"
+
+#. Text in echo
+#: busybee/comments.php:67
+#, fuzzy
+msgid "Logged in as"
+msgstr "Prisijungęs kaip"
+
+#. Text in echo
+#: busybee/template-archives.php:42
+#, fuzzy
+msgid "Monthly Archives"
+msgstr "Mėnesinis archyvas"
+
+#. Text in echo
+#: busybee/comments.php:75
+#, fuzzy
+msgid "Name (required)"
+msgstr "Vardas (privalomas)"
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "No Responses"
+msgstr "Nėra atsiliepimų"
+
+#. Text in echo
+#: busybee/search.php:46
+msgid "No matches. Please try again, or use the navigation menus to find what you are looking for."
+msgstr "Nieko nerasta. Prašome pabandyti dar kartą, arba naudoti navigacijos meniu, kad rastumėte tai ko ieškote."
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "One Response"
+msgstr "Vienas atsiliepimas"
+
+#. Text in echo
+#: busybee/template-sitemap.php:25
+#, fuzzy
+msgid "Pages"
+msgstr "Puslapiai"
+
+#. Text in echo
+#: busybee/includes/theme-widgets.php:14
+#, fuzzy
+msgid "Photos on"
+msgstr "Paveikslėliai"
+
+#. Text in echo
+#: busybee/sidebar.php:14
+#, fuzzy
+msgid "Popular"
+msgstr "Populiarūs"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+#, fuzzy
+msgid "Posted on"
+msgstr "Paskelbta"
+
+#. Text in echo
+#: busybee/header.php:52
+#, fuzzy
+msgid "Posts"
+msgstr "Įrašai"
+
+#. Text in echo
+#: busybee/footer.php:34
+msgid "Powered by Wordpress. Designed by"
+msgstr "Sukurta su Wordpress. Dizainas "
+
+#. Text in echo
+#: busybee/header.php:7
+#, fuzzy
+msgid "Search Results"
+msgstr "Paieškos rezultatai"
+
+#. Text in echo
+#: busybee/search.php:45
+#, fuzzy
+msgid "Search results"
+msgstr "Paieškos rezultatai"
+
+#. Text in echo
+#: busybee/single.php:42
+#, fuzzy
+msgid "Sorry, no posts matched your criteria."
+msgstr "Atsiprašome, bet jokių įrašų, atitinkančių jūsų kriterijų, nerasta."
+
+#. Text in echo
+#: busybee/header.php:13
+#, fuzzy
+msgid "Tag Archive"
+msgstr "Žymių archyvas"
+
+#. Text in echo
+#: busybee/archive.php:22
+#, fuzzy
+msgid "Tag Archives:"
+msgstr "Žymių archyvas:"
+
+#. Text in echo
+#: busybee/sidebar.php:16
+#, fuzzy
+msgid "Tags"
+msgstr "Žymės"
+
+#. Text in echo
+#: busybee/template-archives.php:20
+#, fuzzy
+msgid "The Last 30 Posts"
+msgstr "30 naujausių įrašų"
+
+#. Text in echo
+#: busybee/404.php:17
+#, fuzzy
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Puslapis, kurį bandote pasiekti neegzistuoja arba buvo perkeltas. Prašome naudotis meniu arba paieškos lange surasti tai, ko jūs ieškote."
+
+#. Text in echo
+#: busybee/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Šis pranešimas yra apsaugota slaptažodžiu. Įveskite slaptažodį, norėdami peržiūrėti komentarus."
+
+#. Text in echo
+#: busybee/comments.php:69
+#: busybee/comments.php:84
+msgid "Type your comment here..."
+msgstr "Įrašykite komentarą čia..."
+
+#. Text in echo
+#: busybee/comments.php:59
+#: busybee/comments.php:77
+#, fuzzy
+msgid "Website (optional)"
+msgstr "Interneto svetainė (neprivalomas)"
+
+#. Text in echo
+#: busybee/comments.php:55
+#, fuzzy
+msgid "You must be"
+msgstr "Jūs turite būti"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+#, fuzzy
+msgid "by"
+msgstr "sukurta"
+
+#. Text in echo
+#: busybee/template-archives.php:26
+#, fuzzy
+msgid "comments"
+msgstr "komentarai"
+
+#. Text in echo
+#: busybee/single.php:22
+msgid "in"
+msgstr " "
+
+#. Text in echo
+#: busybee/comments.php:55
+#, fuzzy
+msgid "logged in"
+msgstr "prisijungęs kaip"
+
+#. Text in echo
+#: busybee/comments.php:19
+#, fuzzy
+msgid "to"
+msgstr "į"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "to post a comment."
+msgstr "įrašyti komentarą."
+

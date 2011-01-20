@@ -1,0 +1,362 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Przemyslaw Marczynski <marczynski@post.pl>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: busybee/archive.php:61
+#: busybee/search.php:38
+#: busybee/index.php:86
+#, fuzzy
+msgid " Older Entries &raquo;"
+msgstr "Starsze wpisy &raquo;"
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "% Responses"
+msgstr "% Komentarzy"
+
+#. Text in function
+#: busybee/archive.php:60
+#: busybee/search.php:37
+#: busybee/index.php:85
+#, fuzzy
+msgid "&laquo; Newer Entries "
+msgstr "&laquo; Nowsze wpisy"
+
+#. Text in echo
+#: busybee/footer.php:31
+#, fuzzy
+msgid "All Rights Reserved."
+msgstr "Wszystkie prawa zastrzeżone."
+
+#. Text in echo
+#: busybee/header.php:11
+#: busybee/header.php:12
+#, fuzzy
+msgid "Archive"
+msgstr "Archiwum"
+
+#. Text in echo
+#: busybee/archive.php:20
+#, fuzzy
+msgid "Archive by Author"
+msgstr "Archiwum według autora"
+
+#. Text in echo
+#: busybee/archive.php:16
+#: busybee/archive.php:17
+#: busybee/archive.php:18
+#, fuzzy
+msgid "Archive for"
+msgstr "Archiwum Tagów"
+
+#. Text in echo
+#: busybee/archive.php:19
+#, fuzzy
+msgid "Archive for the year"
+msgstr "Komentarze do tego wpisu"
+
+#. Text in echo
+#: busybee/archive.php:21
+#, fuzzy
+msgid "Archives"
+msgstr "Archiwum Autora"
+
+#. Text in echo
+#: busybee/header.php:8
+#, fuzzy
+msgid "Author Archives"
+msgstr "Archiwum Autora"
+
+#. Text in echo
+#: busybee/template-sitemap.php:35
+#: busybee/template-archives.php:34
+#, fuzzy
+msgid "Categories"
+msgstr "Kategorie"
+
+#. Text in echo
+#: busybee/template-sitemap.php:56
+#: busybee/sidebar.php:15
+#: busybee/header.php:53
+#, fuzzy
+msgid "Comments"
+msgstr "Komentarze"
+
+#. Text in echo
+#: busybee/comments.php:38
+#, fuzzy
+msgid "Comments are closed."
+msgstr "Komentarze zostały zamknięte."
+
+#. Text in echo
+#: busybee/archive.php:51
+#: busybee/search.php:28
+#: busybee/index.php:70
+#, fuzzy
+msgid "Continue Reading"
+msgstr "Czytaj dalej"
+
+#. Text in echo
+#: busybee/header.php:54
+#, fuzzy
+msgid "Email"
+msgstr "E-mail"
+
+#. Text in echo
+#: busybee/comments.php:76
+#, fuzzy
+msgid "Email (required)"
+msgstr "E-mail (wymagany)"
+
+#. Text in echo
+#: busybee/search-form.php:4
+#, fuzzy
+msgid "Enter keywords..."
+msgstr "Szukane słowo"
+
+#. Text in echo
+#: busybee/404.php:16
+#, fuzzy
+msgid "Error 404 - Page not found!"
+msgstr "Błąd 404 - Nie znaleziono strony"
+
+#. Text in echo
+#: busybee/header.php:70
+#, fuzzy
+msgid "Follow me on Twitter"
+msgstr "Śledź mnie na Twitterze"
+
+#. Text in echo
+#: busybee/comments-legacy.php:33
+#, fuzzy
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: busybee/header.php:46
+#, fuzzy
+msgid "Home"
+msgstr "Główna"
+
+#. Text in echo
+#: busybee/header.php:70
+#, fuzzy
+msgid "Latest Tweet from Twitter"
+msgstr "Ostatnio na Twitterze"
+
+#. Text in function
+#: busybee/comments.php:51
+#, fuzzy
+msgid "Leave a Reply"
+msgstr "Skomentuj"
+
+#. Text in function
+#: busybee/comments.php:51
+#, fuzzy
+msgid "Leave a Reply to %s"
+msgstr "Odpowiedz do %s"
+
+#. Text in echo
+#: busybee/comments.php:67
+#, fuzzy
+msgid "Log out &raquo;"
+msgstr "Wyloguj się z konta"
+
+#. Text in echo
+#: busybee/comments.php:67
+#, fuzzy
+msgid "Logged in as"
+msgstr "Zalogowany jako"
+
+#. Text in echo
+#: busybee/template-archives.php:42
+#, fuzzy
+msgid "Monthly Archives"
+msgstr "Archiwum według miesięcy"
+
+#. Text in echo
+#: busybee/comments.php:75
+#, fuzzy
+msgid "Name (required)"
+msgstr "Nazwisko (wymagane)"
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "No Responses"
+msgstr "Brak komentarzy"
+
+#. Text in echo
+#: busybee/search.php:46
+msgid "No matches. Please try again, or use the navigation menus to find what you are looking for."
+msgstr "Nic nie zostało znalezione. Spróbuj ponownie lub użyj menu do znalezienia interesującego Cię tematu."
+
+#. Text in function
+#: busybee/comments.php:19
+#, fuzzy
+msgid "One Response"
+msgstr "Jeden komentarz"
+
+#. Text in echo
+#: busybee/template-sitemap.php:25
+#, fuzzy
+msgid "Pages"
+msgstr "Strony"
+
+#. Text in echo
+#: busybee/includes/theme-widgets.php:14
+#, fuzzy
+msgid "Photos on"
+msgstr "Zdjęcia na <span>Flick<span>r</span></span>"
+
+#. Text in echo
+#: busybee/sidebar.php:14
+#, fuzzy
+msgid "Popular"
+msgstr "Popularne"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+#, fuzzy
+msgid "Posted on"
+msgstr "wpisów w"
+
+#. Text in echo
+#: busybee/header.php:52
+#, fuzzy
+msgid "Posts"
+msgstr "Wpisy"
+
+#. Text in echo
+#: busybee/footer.php:34
+#, fuzzy
+msgid "Powered by Wordpress. Designed by"
+msgstr "Wszystkie prawa zastrzeżone. Na silniku"
+
+#. Text in echo
+#: busybee/header.php:7
+#, fuzzy
+msgid "Search Results"
+msgstr "Wyniki wyszukiwania"
+
+#. Text in echo
+#: busybee/search.php:45
+#, fuzzy
+msgid "Search results"
+msgstr "Wyniki wyszukiwania"
+
+#. Text in echo
+#: busybee/single.php:42
+#, fuzzy
+msgid "Sorry, no posts matched your criteria."
+msgstr "Przykro nam, żaden wpis nie spełnia kryteriów wyszukiwania"
+
+#. Text in echo
+#: busybee/header.php:13
+#, fuzzy
+msgid "Tag Archive"
+msgstr "Archiwum Tagów"
+
+#. Text in echo
+#: busybee/archive.php:22
+#, fuzzy
+msgid "Tag Archives:"
+msgstr "Archiwa Tagów:"
+
+#. Text in echo
+#: busybee/sidebar.php:16
+#, fuzzy
+msgid "Tags"
+msgstr "Tagi"
+
+#. Text in echo
+#: busybee/template-archives.php:20
+#, fuzzy
+msgid "The Last 30 Posts"
+msgstr "Ostatnie 30 wpisów"
+
+#. Text in echo
+#: busybee/404.php:17
+#, fuzzy
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Strona którą chcesz odwiedzić nie istnieje lub została usunięta. Użyj odnośników w menu bądź funkcji Szukaj, aby znaleźć to, czego potrzebujesz."
+
+#. Text in echo
+#: busybee/comments.php:7
+#, fuzzy
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Wpis został zabezpieczony hasłem. Podaj hasło aby zobaczyć komentarze."
+
+#. Text in echo
+#: busybee/comments.php:69
+#: busybee/comments.php:84
+#, fuzzy
+msgid "Type your comment here..."
+msgstr "Twój komentarz oczekuję na akceptację"
+
+#. Text in echo
+#: busybee/comments.php:59
+#: busybee/comments.php:77
+#, fuzzy
+msgid "Website (optional)"
+msgstr "Witryna (nie wymagana)"
+
+#. Text in echo
+#: busybee/comments.php:55
+#, fuzzy
+msgid "You must be"
+msgstr "Musisz być"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+#, fuzzy
+msgid "by"
+msgstr "Zaprojektowane przez"
+
+#. Text in echo
+#: busybee/template-archives.php:26
+#, fuzzy
+msgid "comments"
+msgstr "comments"
+
+#. Text in echo
+#: busybee/single.php:22
+#, fuzzy
+msgid "in"
+msgstr "zalogowany"
+
+#. Text in echo
+#: busybee/comments.php:55
+#, fuzzy
+msgid "logged in"
+msgstr "zalogowany"
+
+#. Text in echo
+#: busybee/comments.php:19
+#, fuzzy
+msgid "to"
+msgstr "do"
+
+#. Text in echo
+#: busybee/comments.php:55
+#, fuzzy
+msgid "to post a comment."
+msgstr "aby zostawić komentarz"
+

@@ -1,0 +1,81 @@
+/*  skyblue style */
+
+
+/*  Images */
+#top-out {
+	background: url(skyblue/bg_top.gif) repeat-x 0 0;
+}
+#header {
+	background: url(skyblue/bg_top_gradient.gif) no-repeat 60px 0;
+}
+#middle-out-top { /* Background - Middle Top */
+	background: #dce4e8 url(skyblue/bg_middle_out_top.gif) repeat-x 0 0;
+}
+#middle-out-bottom { /* Background - Middle Bottom Gradient */
+	background: url(skyblue/bg_middle_out_bottom.gif) repeat-x left bottom;
+}
+#middle-out-bottom .single { /* Background - Content - Single Page */
+	background: url(skyblue/bg_middle_content_single.gif) repeat-y;
+}
+#middle-content { /* Background - Content */
+	background: url(skyblue/bg_middle_content.gif) repeat-y;
+}
+#middle-content-bottom { /* Background - Content Bottom */
+	background: url(skyblue/bg_middle_content_bottom.gif) no-repeat 0 bottom;
+}
+#content {
+	background: url(skyblue/bg_middle_top.gif) no-repeat 0 0;
+}
+#footer {
+	background: url(skyblue/bg_footer_gradient.jpg) no-repeat 0 0;
+}
+#middle-out-bottom .full { /* Background - Content - Full Width Page */
+	background: url(skyblue/bg_page_full.gif) repeat-y;
+}
+#content.full {
+	background: url(skyblue/bg_middle_top_full.gif) no-repeat 0 0;
+}
+#middle-content-bottom.full { /* Background - Content Bottom */
+	background: url(skyblue/bg_middle_content_bottom_full.gif) no-repeat 0 bottom;
+}
+
+/*  Colors */
+a {
+	color: #98aeba;
+}
+#footer h2.widget_title {
+	background: #616E77;
+	color: #fff;
+}
+#footer .block ul, #footer .block .textwidget , #footer .block #calendar_wrap{
+	border: #cad4d6 5px solid;
+	background: #EDEDED;
+}
+.Nav a, .Nav .on,
+#sidebar h2,
+#sidebar ul.idTabs li a {
+	background: #616e77;
+}
+#main-content .post h4.continue a,
+#sidebar ul.idTabs li a.selected, #sidebar ul.idTabs li a:hover {
+	background: #2c6288;
+}
+.Nav .on, .Nav a:hover {
+	background: #2c6288 !important;
+}
+#main-content .post h4.continue a:hover {
+	background: #255271;
+}
+#copyright-out {
+	background: #0b4d73;
+}
+#nav li ul li a {
+	background: #0B4D73;
+	border-bottom: 1px solid #0a476a;
+}
+#footer-out {
+	background: #98aeba;
+}
+
+
+

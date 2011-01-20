@@ -1,0 +1,83 @@
+/*  black style */
+
+
+/*  Images */
+#top-out {
+	background: url(black/bg_top.gif) repeat-x 0 0;
+}
+#header {
+	background: url(black/bg_top_gradient.gif) no-repeat 60px 0;
+}
+#middle-out-top { /* Background - Middle Top */
+	background: #171717 url(black/bg_middle_out_top.gif) repeat-x 0 0;
+}
+#middle-out-bottom { /* Background - Middle Bottom Gradient */
+	background: url(black/bg_middle_out_bottom.gif) repeat-x left bottom;
+}
+#middle-out-bottom .single { /* Background - Content - Single Page */
+	background: url(black/bg_middle_content_single.gif) repeat-y;
+}
+#middle-content { /* Background - Content */
+	background: url(black/bg_middle_content.gif) repeat-y;
+}
+#middle-content-bottom { /* Background - Content Bottom */
+	background: url(black/bg_middle_content_bottom.gif) no-repeat 0 bottom;
+}
+#content {
+	background: url(black/bg_middle_top.gif) no-repeat 0 0;
+}
+#footer {
+	background: url(black/bg_footer_gradient.jpg) no-repeat 0 0;
+}
+
+#middle-out-bottom .full { /* Background - Content - Full Width Page */
+	background: url(black/bg_page_full.gif) repeat-y;
+}
+#content.full {
+	background: url(black/bg_middle_top_full.gif) no-repeat 0 0;
+}
+#middle-content-bottom.full { /* Background - Content Bottom */
+	background: url(black/bg_middle_content_bottom_full.gif) no-repeat 0 bottom;
+}
+
+
+/*  Colors */
+a {
+	color: #838c1c;
+}
+#footer h2.widget_title {
+	background: #222222;
+	color: #fff;
+}
+#footer .block ul, #footer .block .textwidget , #footer .block #calendar_wrap{
+	border: #333333 5px solid;
+	background: #EDEDED;
+}
+.Nav a, .Nav .on,
+#sidebar h2,
+#sidebar ul.idTabs li a {
+	background: #767676;
+}
+#main-content .post h4.continue a,
+#sidebar ul.idTabs li a.selected, #sidebar ul.idTabs li a:hover {
+	background: #848D1E;
+}
+.Nav .on, .Nav a:hover {
+	background: #838383 !important;
+}
+#main-content .post h4.continue a:hover {
+	background: #607125;
+}
+#copyright-out {
+	background: #000000;
+}
+#nav li ul li a {
+	background: #3a3a3a;
+	border-bottom: 1px solid #333333;
+}
+#footer-out {
+	background: #2D2D2D;
+}
+
+
+

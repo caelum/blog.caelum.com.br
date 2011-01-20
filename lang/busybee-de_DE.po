@@ -1,0 +1,308 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Timm Balouschek <fearblog@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+
+#. Text in function
+#: busybee/archive.php:61
+#: busybee/search.php:38
+#: busybee/index.php:86
+msgid " Older Entries &raquo;"
+msgstr "Ältere Beiträge &raquo;"
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "% Responses"
+msgstr "% Antworten"
+
+#. Text in function
+#: busybee/archive.php:60
+#: busybee/search.php:37
+#: busybee/index.php:85
+msgid "&laquo; Newer Entries "
+msgstr "&laquo; Neuere Beiträge"
+
+#. Text in echo
+#: busybee/footer.php:31
+msgid "All Rights Reserved."
+msgstr "Alle Rechte vorbehalten."
+
+#. Text in echo
+#: busybee/header.php:11
+#: busybee/header.php:12
+msgid "Archive"
+msgstr "Archiv"
+
+#. Text in echo
+#: busybee/archive.php:20
+msgid "Archive by Author"
+msgstr "Autorenarchiv"
+
+#. Text in echo
+#: busybee/archive.php:16
+#: busybee/archive.php:17
+#: busybee/archive.php:18
+msgid "Archive for"
+msgstr "Archiv für"
+
+#. Text in echo
+#: busybee/archive.php:19
+msgid "Archive for the year"
+msgstr "Jahresarchiv"
+
+#. Text in echo
+#: busybee/archive.php:21
+msgid "Archives"
+msgstr "Archive"
+
+#. Text in echo
+#: busybee/header.php:8
+msgid "Author Archives"
+msgstr "Autorarchive"
+
+#. Text in echo
+#: busybee/template-sitemap.php:35
+#: busybee/template-archives.php:34
+msgid "Categories"
+msgstr "Kategorien"
+
+#. Text in echo
+#: busybee/template-sitemap.php:56
+#: busybee/sidebar.php:15
+#: busybee/header.php:53
+msgid "Comments"
+msgstr "Kommentare"
+
+#. Text in echo
+#: busybee/comments.php:38
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#. Text in echo
+#: busybee/archive.php:51
+#: busybee/search.php:28
+#: busybee/index.php:70
+msgid "Continue Reading"
+msgstr "Weiterlesen"
+
+#. Text in echo
+#: busybee/header.php:54
+msgid "Email"
+msgstr "E-Mail"
+
+#. Text in echo
+#: busybee/comments.php:76
+msgid "Email (required)"
+msgstr "E-Mail (benötigt)"
+
+#. Text in echo
+#: busybee/search-form.php:4
+msgid "Enter keywords..."
+msgstr "Suchbegriff eingeben"
+
+#. Text in echo
+#: busybee/404.php:16
+msgid "Error 404 - Page not found!"
+msgstr "404 - Seite nicht gefunden!"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Follow me on Twitter"
+msgstr "Folge mir auf Twitter"
+
+#. Text in echo
+#: busybee/comments-legacy.php:33
+msgid "Gravatar"
+msgstr "Gravatar"
+
+#. Text in echo
+#: busybee/header.php:46
+msgid "Home"
+msgstr "Home"
+
+#. Text in echo
+#: busybee/header.php:70
+msgid "Latest Tweet from Twitter"
+msgstr "Letzter Tweet"
+
+#. Text in function
+#: busybee/comments.php:51
+msgid "Leave a Reply"
+msgstr "Hinterlasse einen Kommentar"
+
+#. Text in function
+#: busybee/comments.php:51
+msgid "Leave a Reply to %s"
+msgstr "Hinterlasse einen Kommentar zu %s"
+
+#. Text in echo
+#: busybee/comments.php:67
+msgid "Log out &raquo;"
+msgstr "Ausloggen &raquo;"
+
+#. Text in echo
+#: busybee/comments.php:67
+msgid "Logged in as"
+msgstr "Eingeloggt als"
+
+#. Text in echo
+#: busybee/template-archives.php:42
+msgid "Monthly Archives"
+msgstr "Monatsarchive"
+
+#. Text in echo
+#: busybee/comments.php:75
+msgid "Name (required)"
+msgstr "Name (benötigt)"
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "No Responses"
+msgstr "Keine Antworten"
+
+#. Text in echo
+#: busybee/search.php:46
+msgid "No matches. Please try again, or use the navigation menus to find what you are looking for."
+msgstr "Keine Treffer. Bitte versuche es erneut oder nutze die Navigation um zu finden was du suchst."
+
+#. Text in function
+#: busybee/comments.php:19
+msgid "One Response"
+msgstr "1 Antwort"
+
+#. Text in echo
+#: busybee/template-sitemap.php:25
+msgid "Pages"
+msgstr "Seiten"
+
+#. Text in echo
+#: busybee/includes/theme-widgets.php:14
+msgid "Photos on"
+msgstr "Fotos auf"
+
+#. Text in echo
+#: busybee/sidebar.php:14
+msgid "Popular"
+msgstr "Beliebt"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+msgid "Posted on"
+msgstr "Veröffentlicht am"
+
+#. Text in echo
+#: busybee/header.php:52
+msgid "Posts"
+msgstr "Beiträge"
+
+#. Text in echo
+#: busybee/footer.php:34
+msgid "Powered by Wordpress. Designed by"
+msgstr "Powered by WordPress. Designed von"
+
+#. Text in echo
+#: busybee/header.php:7
+msgid "Search Results"
+msgstr "Suchergebnisse"
+
+#. Text in echo
+#: busybee/search.php:45
+msgid "Search results"
+msgstr "Suchergebnisse"
+
+#. Text in echo
+#: busybee/single.php:42
+msgid "Sorry, no posts matched your criteria."
+msgstr "Sorry, keine Beiträge entsprechen deinen Kriterien."
+
+#. Text in echo
+#: busybee/header.php:13
+msgid "Tag Archive"
+msgstr "Tagarchiv"
+
+#. Text in echo
+#: busybee/archive.php:22
+msgid "Tag Archives:"
+msgstr "Tagarchive:"
+
+#. Text in echo
+#: busybee/sidebar.php:16
+msgid "Tags"
+msgstr "Tag"
+
+#. Text in echo
+#: busybee/template-archives.php:20
+msgid "The Last 30 Posts"
+msgstr "Die 30 neuesten Beiträge"
+
+#. Text in echo
+#: busybee/404.php:17
+msgid "The page you trying to reach does not exist, or has been moved. Please use the menus or the search box to find what you are looking for."
+msgstr "Die Seite die du suchst existiert nicht oder ist umgezogen. Bitte benutze das Menü oder die Suche um das zu finden was du suchst."
+
+#. Text in echo
+#: busybee/comments.php:7
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dieser Beitrag ist passwortgeschützt. Gib das Passwort ein um die Kommentare zu sehen."
+
+#. Text in echo
+#: busybee/comments.php:69
+#: busybee/comments.php:84
+msgid "Type your comment here..."
+msgstr "Schreibe deinen Kommentar in dieses Feld..."
+
+#. Text in echo
+#: busybee/comments.php:59
+#: busybee/comments.php:77
+msgid "Website (optional)"
+msgstr "Website (optional)"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "You must be"
+msgstr "Du musst"
+
+#. Text in echo
+#: busybee/archive.php:36
+#: busybee/search.php:23
+#: busybee/index.php:63
+#: busybee/index.php:55
+#: busybee/single.php:22
+msgid "by"
+msgstr "von"
+
+#. Text in echo
+#: busybee/template-archives.php:26
+msgid "comments"
+msgstr "Kommentare"
+
+#. Text in echo
+#: busybee/single.php:22
+msgid "in"
+msgstr "in"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "logged in"
+msgstr "eingeloggt sein"
+
+#. Text in echo
+#: busybee/comments.php:19
+msgid "to"
+msgstr "zu"
+
+#. Text in echo
+#: busybee/comments.php:55
+msgid "to post a comment."
+msgstr "um kommentieren zu können."
+
