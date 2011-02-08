@@ -3,3 +3,8 @@
 Tema para WordPress
 Baseado no tema "Busy Bee", por Woo Themes
 
+== Changelog ==
+
+* Logotipo no Header
+  -- Seletor "#header img.title" no arquivo custom.css
+  -- Substituição da imagem "logo-trans.png"
