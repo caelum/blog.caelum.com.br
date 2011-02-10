@@ -14,3 +14,38 @@ your liking.
 #header img.title {
   margin: -20px 0px 0px -20px;
 }
+
+#sidebar #tfc-container {
+  clear: both;
+}
+
+#sidebar #tfc-container a:hover {
+  text-decoration: none;
+}
+
+#sidebar #tfc-container p {
+  display: inline;
+}
+
+#sidebar #tfc-container h3 {
+  display: block;
+  float: none;
+  margin-bottom: 0px;
+}
+
+#sidebar #tfc-container h4 {
+  font: 24px arial;
+  padding-bottom: 0px;
+}
+
+#sidebar #tfc-container h5 {
+  font: 18px arial;
+  padding-bottom: 0px;
+}
+
+#sidebar #tfc-container h5 img {
+  float: left;
+  margin: -5px 0px 5px;
+  vertical-align: top;
+  width: 50px;
+}
