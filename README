@@ -8,3 +8,53 @@ Baseado no tema "Busy Bee", por Woo Themes
 * Logotipo no Header
   -- Seletor "#header img.title" no arquivo custom.css
   -- Substituição da imagem "logo-trans.png"
+
+* Widget "Twitter Followers Count" na Sidebar
+  -- Plugin para jQuery no arquivo "tfcWidget.js"
+  -- Instalar o plugin "PHP Code Widget"
+  -- Adicionar um widget "PHP Code" na Sidebar
+  -- Título:
+       Siga-nos no Twitter
+     Conteúdo:
+       <div id="tfc-container"></div>
+       <script type="text/javascript" src="<?php echo get_bloginfo('template_directory') . '/includes/js/tfcWidget.js' ?>"></script>
+       <script type="text/javascript">
+         (function( $ ) {
+           $("#tfc-container").tfcWidget("caelum");
+         })( jQuery );
+       </script>
+  -- Novos seletores no "custom.css":
+       #sidebar #tfc-container {
+         clear: both;
+       }
+ 
+       #sidebar #tfc-container a:hover {
+         text-decoration: none;
+       }
+ 
+       #sidebar #tfc-container p {
+         display: inline;
+       }
+ 
+       #sidebar #tfc-container h3 {
+         display: block;
+         float: none;
+         margin-bottom: 0px;
+       }
+ 
+       #sidebar #tfc-container h4 {
+         font: 24px arial;
+         padding-bottom: 0px;
+       }
+ 
+       #sidebar #tfc-container h5 {
+         font: 18px arial;
+         padding-bottom: 0px;
+       }
+ 
+       #sidebar #tfc-container h5 img {
+         float: left;
+         margin: -5px 0px 5px;
+         vertical-align: top;
+         width: 50px;
+       }
