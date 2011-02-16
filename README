@@ -63,3 +63,25 @@ Baseado no tema "Busy Bee", por Woo Themes
          display: block;
          margin-top: 8px;
        }
+
+* Link para RSS na Sidebar
+  -- Adicionar um widget "PHP Code" na Sidebar
+  -- Título:
+       <Vazio>
+     Conteúdo:
+       <a href="<?php echo home_url() ?>/feed/" target="_blank" id="link_rss">
+         <img src="<?php echo get_bloginfo( 'template_directory' ) ?>/images/bg_rss.gif" alt="RSS" />
+         ASSINE NOSSO RSS
+       </a>
+  -- Novos seletores no "custom.css"
+       #sidebar #link_rss {
+         font-size: 16px;
+         font-weight: bold;
+       }
+
+       #sidebar #link_rss img {
+         margin-right: 4px;
+         position: relative;
+         top: 2px;
+       }
+
