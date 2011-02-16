@@ -84,3 +84,51 @@ Baseado no tema "Busy Bee", por Woo Themes
          position: relative;
          top: 2px;
        }
+
+* Header novo (igual ao site atual da Caelum)
+ -- Novos seletores no "custom.css"
+   #wrap #header {
+     background: url(images/caelum_bg_header.gif) repeat-x 0 0;
+     height: 75px;
+     padding: 10px;
+   }
+
+   #wrap #header #header_container {
+     margin: 0 auto;
+     position: relative;
+     width: 960px;
+   }
+
+   #wrap #header #menu-topo {
+     position: absolute;
+     right: 0px;
+     top: 0px;
+   }
+
+   #wrap #header #menu-topo ul {
+     float: left;
+   }
+
+   #wrap #header #menu-topo ul li {
+     float: left;
+   }
+
+   #wrap #header #menu-topo ul li::after {
+     content: "|";
+     margin: 0px 5px;
+   }
+
+   #wrap #header #menu-topo #facebook-like {
+     float: left;
+     position: relative;
+     top: 7px;
+     width: 100px;
+   }
+
+   #wrap #header h1 {
+     display: block;
+   }
+
+   #wrap #top-out {
+     background: url(images/caelum_bg_top.gif) repeat-x 0 0;
+   }

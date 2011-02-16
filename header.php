@@ -26,73 +26,28 @@
 <?php $cat = get_option('woo_video_category'); $GLOBALS[vid_cat] = $wpdb->get_var("SELECT term_id FROM $wpdb->terms WHERE name='$cat'"); ?>
 
 <div id="wrap">
+  <div id="header">
+    <div id="header_container">
+      <h1>
+        <a href="http://www.caelum.com.br/" class="logocaelum">
+          <img src="<?php echo get_bloginfo( 'template_url' ) . '/images/caelum_ensino_e_inovacao.png' ?>" alt="Caelum - Cursos de Java, Scrum, Ruby on Rails" width="161" height="50">
+        </a>
+      </h1>
+      <div id="menu-topo">
+        <ul>
+          <li><a href="http://www.caelum.com.br/">Caelum</a></li>
+          <li><a href="http://www.caelum.com.br/newsletter/">Newsletter</a></li>
+          <li><a href="http://www.caelum.com.br/apostilas/">Apostilas</a></li>
+        </ul>
+        <div id="facebook-like">
+          <iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.facebook.com%2Fcaelumbr&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;aheight=30" scrolling="no" frameborder="0" allowtransparency="true" style=""></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 	<!-- Top Starts -->
 	<div id="top-out">
 		<div id="top">
-		<!-- Page Nav Starts -->
-			<div id="page_navi" class="wrap">
-				<div class="col-left">
-					<?php
-					if ( function_exists('has_nav_menu') && has_nav_menu('primary-menu') ) {
-						wp_nav_menu( array( 'sort_column' => 'menu_order', 'container' => 'ul', 'menu_id' => 'nav', 'theme_location' => 'primary-menu' ) );
-					} else {
-					?>
-					<ul id="nav">
-					<?php 
-                    if ( get_option('woo_custom_nav_menu') == 'true' ) {
-                        if ( function_exists('woo_custom_navigation_output') )
-							woo_custom_navigation_output('name=Woo Menu 1');
-        
-                    } else { ?>
-                    
-						<?php if (is_page()) { $highlight = "page_item"; } else {$highlight = "page_item current_page_item"; } ?>
-						<li class="<?php echo $highlight; ?>"><a href="<?php bloginfo('url'); ?>"><?php _e('Home',woothemes); ?></a></li>
-						<?php wp_list_pages('sort_column=menu_order&depth=0&title_li='); ?>
-                        
-                    <?php } ?>
-					</ul>
-					<?php } ?>
-				</div>
-				<div class="col-right">
-					<ul class="rss">
-						<li><a href="<?php if ( get_option('woo_feedburner_url') <> "" ) { echo get_option('woo_feedburner_url'); } else { echo get_bloginfo_rss('rss2_url'); } ?>"><?php _e('Posts',woothemes); ?></a></li>
-						<li <?php if ( get_option('woo_feedburner_id') == "" ) echo 'class="last"'; ?>><a href="<?php bloginfo('comments_rss2_url'); ?>"><?php _e('Comments',woothemes); ?></a></li>
-						<?php if ( get_option('woo_feedburner_id') <> "" ) { ?><li class="last"><a href="<?php echo get_option('woo_feedburner_id'); ?>" target="_blank"><?php _e('Email',woothemes); ?></a></li><?php } ?>
-					</ul>
-				</div>
-			</div>
-			<!-- Page Nav Ends -->
-			<div id="header">
-			
-	            <div id="logo">
-	               
-	                <?php if (get_option('woo_texttitle') <> "true") { ?><a href="<?php bloginfo('url'); ?>" title="<?php bloginfo('description'); ?>"><img class="title" src="<?php if ( get_option('woo_logo') <> "" ) { echo get_option('woo_logo'); } else { bloginfo('template_directory'); ?>/images/logo-trans.png<?php } ?>" alt="<?php bloginfo('name'); ?>" /></a><?php } ?>
-	                
-	                <?php if(is_single() || is_page()) : ?>
-	                    <span class="site-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></span>
-	                <?php else: ?>
-	                    <h1 class="site-title"><a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a></h1>
-	                <?php endif; ?>
-	                
-	                    <span class="site-description"><?php bloginfo('description'); ?></span>
-	                
-	            </div><!-- /#logo -->
-				
-				<!-- Top Ad Starts -->
-				<?php if (get_option('woo_ad_top_disable') == "false" && !get_option('woo_twitter')) include (TEMPLATEPATH . "/ads/top_ad.php"); ?>
-				<!-- Top Ad Ends -->
-
-				<!-- Twitter Starts -->
-				<?php if (get_option('woo_twitter')) { ?>
-                <div class="latest_twitter">
-                	<a href="http://www.twitter.com/<?php echo get_option('woo_twitter'); ?>" title="<?php _e('Follow me on Twitter',woothemes); ?>"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-trans.png" alt="<?php _e('Latest Tweet from Twitter',woothemes); ?>" /></a>
-					<ul id="twitter_update_list"><li></li></ul>
-                </div>
-                <?php } ?>
-				<!-- Twitter Ad Ends -->
-                
-				
-			</div>
 			<!-- Category Nav Starts -->
 			<div id="cat_navi" class="wrap">
 				<?php
