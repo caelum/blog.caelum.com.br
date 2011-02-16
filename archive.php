@@ -33,7 +33,7 @@
 							<?php woo_get_image('image',get_option('woo_thumb_width'),get_option('woo_thumb_height'),'thumbnail alignleft'); ?>
                             
                             <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-							<p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php the_author_posts_link(); ?>.</p>
+							<p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php coauthors_posts_links(); ?>.</p>
 							<div class="comment-cloud">
 								<a href="<?php comments_link(); ?>"><?php comments_number('0','1','%'); ?></a>
 							</div>

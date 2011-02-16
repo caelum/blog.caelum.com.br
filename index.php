@@ -27,7 +27,7 @@
                                     
                             <div class="post-title">
                                 <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                                <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php the_author_posts_link(); ?>.</p>
+                                <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php coauthors_posts_links(); ?>.</p>
                                 <div class="comment-cloud">
                                     <a href="<?php comments_link(); ?>"><?php comments_number('0','1','%'); ?></a>
                                 </div>
@@ -52,7 +52,7 @@
 								<?php woo_image('class=thumbnail&width='.get_option('woo_home_thumb_width').'&height='.get_option('woo_home_thumb_height')); ?> 
                                 <div class="post-title">
                                     <h3><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
-                                    <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php the_author_posts_link(); ?>.</p>
+                                    <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php coauthors_posts_links(); ?>.</p>
                                     <div class="comment-cloud">
                                         <a href="<?php comments_link(); ?>"><?php comments_number('0','1','%'); ?></a>
                                     </div>
@@ -60,7 +60,7 @@
                             <?php } else { ?>
 								<?php woo_image('class=alignleft thumbnail&width='.get_option('woo_thumb_width').'&height='.get_option('woo_thumb_height')); ?> 
                                 <h2><a href="<?php the_permalink() ?>" rel="bookmark" title="<?php the_title(); ?>"><?php the_title(); ?></a></h2>
-                                <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php the_author_posts_link(); ?>.</p>
+                                <p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php coauthors_posts_links(); ?>.</p>
                                 <div class="comment-cloud">
                                     <a href="<?php comments_link(); ?>"><?php comments_number('0','1','%'); ?></a>
                                 </div>
