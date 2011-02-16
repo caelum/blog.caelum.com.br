@@ -58,3 +58,8 @@ Baseado no tema "Busy Bee", por Woo Themes
          vertical-align: top;
          width: 50px;
        }
+
+       #sidebar #tfc-container q {
+         display: block;
+         margin-top: 8px;
+       }
