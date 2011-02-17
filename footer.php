@@ -33,7 +33,6 @@
 			<p>&copy; <?php echo date('Y'); ?> <?php bloginfo(); ?>. <?php _e('All Rights Reserved.',woothemes); ?></p>
 		</div>
 		<div class="col-right">
-			<p><?php _e('Powered by WordPress. Designed by',woothemes); ?> <a href="#"><img src="<?php bloginfo('template_directory'); ?>/<?php woo_style_path() ?>/img_woothemes.jpg" width="87" height="footer-21" alt="Woo Themes" /></a></p>
 		</div>
 	</div>
 	</div>
