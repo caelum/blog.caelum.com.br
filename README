@@ -54,6 +54,7 @@ Baseado no tema "Busy Bee", por Woo Themes
  
        #sidebar #tfc-container h5 img {
          float: left;
+         height: 50px;
          margin: -5px 0px 5px;
          vertical-align: top;
          width: 50px;
