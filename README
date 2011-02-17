@@ -133,3 +133,6 @@ Baseado no tema "Busy Bee", por Woo Themes
    #wrap #top-out {
      background: url(images/caelum_bg_top.gif) repeat-x 0 0;
    }
+
+* Tradução do plugin Co-authors Plus
+  define('COAUTHORS_DEFAULT_BETWEEN_LAST', __(' e ', 'co-authors-plus'));
