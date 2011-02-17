@@ -91,7 +91,7 @@ Baseado no tema "Busy Bee", por Woo Themes
    #wrap #header {
      background: url(images/caelum_bg_header.gif) repeat-x 0 0;
      height: 75px;
-     padding: 10px;
+     padding-top: 10px;
    }
 
    #wrap #header #header_container {
@@ -128,6 +128,7 @@ Baseado no tema "Busy Bee", por Woo Themes
 
    #wrap #header h1 {
      display: block;
+     margin-left: 15px;
    }
 
    #wrap #top-out {
