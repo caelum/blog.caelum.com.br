@@ -102,3 +102,17 @@ your liking.
 #wrap #top-out {
   background: url(images/caelum_bg_top.gif) repeat-x 0 0;
 }
+
+.social_bar {
+  height: 10px;
+  padding: 15px 0px;
+}
+
+.social_bar > span {
+  width: 430px;
+}
+
+.twitter-share-button.twitter-count-horizontal {
+  float: left;
+  margin-top: 2px;
+}

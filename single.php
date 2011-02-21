@@ -22,7 +22,23 @@
 						<p class="post-details"><?php _e('Posted on',woothemes); ?> <?php the_time('d. M, Y'); ?> <?php _e('by',woothemes); ?>  <?php coauthors_posts_links(); ?> <?php _e('in',woothemes); ?> <?php the_category(', ') ?></p>
 						
 						<?php if ( in_category($GLOBALS[vid_cat]) ) echo woo_get_embed('embed','550','360'); ?>                        
+
+						<div class="social_bar">
+							<?php twitter_goodies_tweet_button(); ?>
+							<?php if(function_exists('Count_Button')) {
+							    echo Short_Button();
+							} ?>
+						</div>
+
 						<?php the_content(); ?>
+
+						<div class="social_bar">
+							<?php twitter_goodies_tweet_button(); ?>
+							<?php if(function_exists('Count_Button')) {
+							    echo Short_Button();
+							} ?>
+						</div>
+
 						<?php the_tags('<p class="tags">Tags: ', ', ', '</p>'); ?>
 
 					</div>
