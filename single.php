@@ -24,19 +24,25 @@
 						<?php if ( in_category($GLOBALS[vid_cat]) ) echo woo_get_embed('embed','550','360'); ?>                        
 
 						<div class="social_bar">
-							<?php twitter_goodies_tweet_button(); ?>
 							<?php if(function_exists('Count_Button')) {
-							    echo Short_Button();
+								echo Short_Button();
 							} ?>
+							<?php if (function_exists('fbshare_button')) {
+								echo fbshare_button();
+							} ?>
+							<?php twitter_goodies_tweet_button(); ?>
 						</div>
 
 						<?php the_content(); ?>
 
 						<div class="social_bar">
-							<?php twitter_goodies_tweet_button(); ?>
 							<?php if(function_exists('Count_Button')) {
-							    echo Short_Button();
+								echo Short_Button();
 							} ?>
+							<?php if (function_exists('fbshare_button')) {
+								echo fbshare_button();
+							} ?>
+							<?php twitter_goodies_tweet_button(); ?>
 						</div>
 
 						<?php the_tags('<p class="tags">Tags: ', ', ', '</p>'); ?>

@@ -104,15 +104,19 @@ your liking.
 }
 
 .social_bar {
-  height: 10px;
-  padding: 15px 0px;
+  padding: 15px 0px 0px;
 }
 
 .social_bar > span {
-  width: 430px;
+  display: block;
 }
 
-.twitter-share-button.twitter-count-horizontal {
-  float: left;
-  margin-top: 2px;
+.social_bar > a {
+  margin: 0px 10px 0px 0px;
+  position: relative;
+  top: -6px;
+}
+
+.fb_share_count_nub_right {
+  margin-top: 7px;
 }
