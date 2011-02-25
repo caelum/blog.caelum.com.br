@@ -71,10 +71,23 @@ your liking.
 
 #wrap #header #menu-topo ul {
   float: left;
+  position: relative;
+  left: 2px;
 }
 
 #wrap #header #menu-topo ul li {
   float: left;
+  font: 13px Arial, Helvetica, Sans-serif;
+}
+
+#wrap #header #menu-topo ul li a:link,
+#wrap #header #menu-topo ul li a:visited {
+  color: #36C;
+  text-decoration: underline;
+}
+
+#wrap #header #menu-topo ul li a:hover {
+  text-decoration: none;
 }
 
 #wrap #header #menu-topo ul li:after {
@@ -86,6 +99,7 @@ your liking.
   float: left;
   position: relative;
   top: 7px;
+  left: 5px;
   width: 100px;
   height: 30px;
 }
@@ -138,7 +152,7 @@ your liking.
   margin-top: 8px;
   float: left;
   width: 275px;
-  margin-right: 5px;
+  margin-right: 8px;
 }
 
 #menu-topo #busca-q {
