@@ -137,7 +137,7 @@ Baseado no tema "Busy Bee", por Woo Themes
 
 * Tradução do plugin Co-authors Plus
   define('COAUTHORS_DEFAULT_BETWEEN_LAST', __(' e ', 'co-authors-plus'));
-  
+
 * Barra social nos posts
   -- Seletores novos:
      
@@ -154,3 +154,7 @@ Baseado no tema "Busy Bee", por Woo Themes
        float: left;
        margin-top: 2px;
      }
+
+* Barra de busca no topo
+  -- Instalar o plugin "Exec-PHP"
+  -- Alterações no custom.css

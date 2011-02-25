@@ -54,7 +54,7 @@ your liking.
 #wrap #header {
   background: url(images/caelum_bg_header.gif) repeat-x 0 0;
   height: 75px;
-  padding-top: 10px;
+  padding-top: 0px;
 }
 
 #wrap #header #header_container {
@@ -64,7 +64,6 @@ your liking.
 }
 
 #wrap #header #menu-topo {
-  height: 35px;
   position: absolute;
   right: 0px;
   top: 0px;
@@ -88,6 +87,7 @@ your liking.
   position: relative;
   top: 7px;
   width: 100px;
+  height: 30px;
 }
 
 #wrap #header #menu-topo #facebook-like iframe {
@@ -96,7 +96,8 @@ your liking.
 
 #wrap #header h1 {
   display: block;
-  margin-left: 15px;
+  margin-left: 16px;
+  padding-top: 12px;
 }
 
 #wrap #top-out {
@@ -119,4 +120,46 @@ your liking.
 
 .fb_share_count_nub_right {
   margin-top: 7px;
+}
+
+#cse-search-results {
+  width: 560px;
+}
+
+#cse-search-results iframe[width="795"] {
+  width: 560px;
+}
+
+#cse-search-results iframe[height="1400"] {
+  height: 960px;
+}
+
+#menu-topo #busca {
+  margin-top: 8px;
+  float: left;
+  width: 275px;
+  margin-right: 5px;
+}
+
+#menu-topo #busca-q {
+  background: white url('http://www.caelum.com.br/imagens/base/header.vsprite/sprite.1297507838.png') no-repeat 0 -215px;
+  border: 1px solid #777;
+  border-right: 0;
+  float: left;
+  font: 13px Arial, Helvetica, Sans-serif;
+  height: 18px;
+  padding: 1px 1px 1px 19px;
+  width: 185px;
+  margin: 0px;
+}
+
+#menu-topo #busca-submit {
+  background: #777;
+  border: 0;
+  color: white;
+  float: left;
+  font: 13px Arial, Helvetica, Sans-serif;
+  height: 22px;
+  padding: 3px;
+  margin: 0px;
 }
