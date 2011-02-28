@@ -34,18 +34,6 @@
         </a>
       </h1>
       <div id="menu-topo">
-        <form action="<?php echo home_url() . '/busca/' ?>" id="busca">
-          <input type="hidden" name="cx" value="000662320490599893640:aw0taun20ng" />
-          <input type="hidden" name="cof" value="FORID:10" />
-          <input type="hidden" name="ie" value="UTF-8" />
-          <input type="text" name="q" value="<?php echo $_GET['q']?>" size="31" id="busca-q" autocomplete="off" />
-          <input type="submit" value="Buscar" id="busca-submit"/>
-        </form>
-        <ul>
-          <li><a href="http://www.caelum.com.br/">Caelum</a></li>
-          <li><a href="http://www.caelum.com.br/newsletter/">Newsletter</a></li>
-          <li><a href="http://www.caelum.com.br/apostilas/">Apostilas</a></li>
-        </ul>
         <div id="facebook-like">
           <iframe src="http://www.facebook.com/plugins/like.php?locale=en_US&amp;href=http%3A%2F%2Fwww.facebook.com%2Fcaelumbr&amp;layout=button_count&amp;show_faces=false&amp;width=100&amp;action=like&amp;colorscheme=light&amp;aheight=30" scrolling="no" frameborder="0" allowtransparency="true" style=""></iframe>
         </div>
