@@ -30,7 +30,7 @@
     <div id="header_container">
       <h1>
         <a href="http://www.caelum.com.br/" class="logocaelum">
-          <img src="<?php echo get_bloginfo( 'template_url' ) . '/images/caelum_ensino_e_inovacao.png' ?>" alt="Caelum - Cursos de Java, Scrum, Ruby on Rails" width="161" height="50">
+          <img src="<?php echo get_bloginfo( 'template_url' ) . '/images/caelum_objects.png' ?>" alt="Caelum - Cursos de Java, Scrum, Ruby on Rails" width="161" height="50">
         </a>
       </h1>
       <div id="menu-topo">
