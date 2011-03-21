@@ -177,3 +177,24 @@ your liking.
   padding: 3px;
   margin: 0px;
 }
+
+#footer-link {
+  position: relative;
+  top: 4px;
+}
+
+#footer-link li {
+  display: inline;
+}
+
+#footer-link li a:link,
+#footer-link li a:visited {
+  color: #FFF;
+  font: bold 13px Arial, Helvetica, Sans-serif;
+  margin: 0px 10px;
+}
+
+#footer-link li a:hover {
+  color: #F5F5F5;
+  text-decoration: underline;
+}
