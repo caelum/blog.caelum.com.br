@@ -18,9 +18,7 @@
 
     <div id="copyright-out">
       <div id="copyright" class="wrap">
-        <div class="col-left">
-          <p>&copy; <?php echo date('Y'); ?> <?php bloginfo(); ?>. <?php _e('All Rights Reserved.',woothemes); ?></p>
-        </div><!-- .col-left -->
+        <div class="col-left"></div>
         <div class="col-right">
           <ul id="footer-link">
             <li><a href="http://www.caleum.com.br/" target="_blank">Caelum</a></li>
